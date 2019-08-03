@@ -239,3 +239,83 @@ footer p{
 	opacity: 1;
 	transition: all 0.3s ease-in;
 }
+
+/* tablet */
+@media (max-width:768px){
+	
+	#inicio h1{
+	color: #280049;
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 5%;
+}
+
+#inicio h5{
+	color: #72579a;
+	font-weight: 400;
+	font-size: 15px;
+	margin-bottom: 5%;
+}
+
+#inicio h4{
+	color: #72579a;
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 8%;
+}
+	
+}
+
+/* Celular */
+@media (max-width:480px){
+	
+	#inicio{
+	background-image: none;
+	
+}
+	
+	#inicio h1{
+	color: #280049;
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 5%;
+}
+
+#inicio h5{
+	color: #72579a;
+	font-weight: 400;
+	font-size: 15px;
+	margin-bottom: 5%;
+}
+
+#inicio h4{
+	color: #72579a;
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 8%;
+}
+	
+	.titulo{
+		font-weight: 18px
+	}
+	
+	.titulo-blanco-uno{
+		font-weight: 18px
+	}
+	
+	.titulo-uno{
+		font-weight: 18px
+	}
+	
+	.texto{
+		font-weight: 12px
+	}
+	
+	.texto-blanco{
+		font-weight: 12px
+	}
+	
+	.texto-uno{
+		font-weight: 12px
+	}
+}
