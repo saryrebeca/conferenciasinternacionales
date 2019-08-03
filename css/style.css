@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900&display=swap');
+
+body{
+	text-align: center;
+	font-size: 14px;
+	color: #212529;
+	background-color: #fff;
+}
+
+.header-area.sticky {
+	background-color: #fff !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.header-area.sticky .nav-link{
+	color:#000;
+}
+
+.header-area.sticky .d-none{
+	display: block !important;
+}
+
+.header-area.sticky .d-block{
+	display: none !important;
+}
+
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+.section{
+	padding: 5% 0;
+}
+
+#inicio{
+	padding: 200px;
+	background-image: url( ../img/1.png);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	
+}
+
+#inicio h1{
+	color: #280049;
+	font-weight: 700;
+	font-size: 50px;
+	margin-bottom: 5%;
+}
+
+#inicio h5{
+	color: #72579a;
+	font-weight: 400;
+	font-size: 35px;
+	margin-bottom: 5%;
+}
+
+#inicio h4{
+	color: #72579a;
+	font-weight: 700;
+	font-size: 45px;
+	margin-bottom: 8%;
+}
+
+.btn-morado{
+	background-color: #72579a;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 2% 4%;
+	border-radius: 0px;
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.btn-verde{
+	background-color: #97be13;
+	color: #280049;
+	text-transform: uppercase;
+	padding: 1% 2%;
+	border-radius: 0px;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+
+.titulo{
+	color: #280049;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 5%;
+}
+
+.titulo-blanco{
+	color: #fff;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 5%;
+}
+
+.titulo-blanco-uno{
+	color: #fff;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 5%;
+	text-align: left;
+}
+.titulo-uno{
+	color: #280049;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 5%;
+}
+.texto{
+	color: #280049;
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 10%;
+}
+
+.texto-blanco{
+	color: #fff;
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 5%;
+} 
+
+.texto-uno{
+	color: #fff;
+	font-weight: 400;
+	font-size: 18px;
+	margin-bottom: 5%;
+	text-align: left
+}
+
+#fondo-uno{
+	background-image: url( ../img/IMG_4938.JPG);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding: 130px;
+}
+
+.iconos i{
+	font-size: 80px;
+	color: #97be13;
+	text-align: center;
+	margin-bottom: 15%
+}
+
+.iconos{
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 15% 10%;
+	font-size: 16px;
+	color: #878787;
+ }
+
+#conferencistas img{
+	margin-bottom: 10%;
+}
+
+#contacto{
+	padding: 200px;
+	background-image: url( ../img/IMG_4938.JPG);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+#descuento{
+	padding: 100px;
+	background-image: url( ../img/ademic.png);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+#descuento h2{
+	color: #fff;
+	font-weight: 700;
+	font-size: 50px;
+	margin-bottom: 5%;
+}
+
+#descuento h3{
+	color: #97be13;
+	font-weight: 700;
+	font-size: 50px;
+	margin-bottom: 7%;
+}
+
+footer{
+	background-color: #280049;
+	font-size: 15px;
+	color: #fff;
+	padding: 10px;
+	font-style: italic;
+}
+
+footer p{
+	margin-top: 13px;
+}
+
+.work-info{
+	position: relative;
+	overflow: hidden;
+}
+
+.layer-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color:rgba(40,0,73,0.70);
+	width: 49%;
+	color: #fff;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.3s ease-out;
+	z-index: 100;
+}
+
+.work-info .bg-green{
+	position: absolute;
+	top: 0;
+	background-color:rgba(40,0,73,0.70);
+	width: 0;
+	height: 50%;
+	z-index: 1;
+	opacity: 0;
+}
+.work-info:hover .layer-text,
+.work-info:hover .bg-green{
+	opacity: 1;
+	transition: all 0.3s ease-in;
+}
